@@ -1,0 +1,113 @@
+{
+  "timestamp": "20260315_105536",
+  "prompt_file": "system-prompt.md",
+  "model": "qwen/qwen-2.5-7b-instruct",
+  "aggregate_score": 55.7,
+  "good": 4,
+  "bad": 6,
+  "results": [
+    {
+      "call_id": "call_01",
+      "score": 65,
+      "verdict": "good",
+      "rule_penalty": 0,
+      "rule_problems": [],
+      "reasoning": "Moderate empathy and clarity, but the agent repeated the amount multiple times and struggled with the customer's technical issues.",
+      "worst_messages": [],
+      "dimension_scores": {}
+    },
+    {
+      "call_id": "call_02",
+      "score": 48,
+      "verdict": "bad",
+      "rule_penalty": 0,
+      "rule_problems": [],
+      "reasoning": "The agent showed some empathy but was repetitive in explaining the amount and did not effectively discover why the borrower hadn't paid. The resolution was not clearly defined.",
+      "worst_messages": [],
+      "dimension_scores": {}
+    },
+    {
+      "call_id": "call_03",
+      "score": 30,
+      "verdict": "bad",
+      "rule_penalty": 15,
+      "rule_problems": [
+        "Agent repeating same message"
+      ],
+      "reasoning": "Lack of clarity in communication, repeated questions, no clear resolution or understanding of the customer's situation.",
+      "worst_messages": [],
+      "dimension_scores": {}
+    },
+    {
+      "call_id": "call_04",
+      "score": 65,
+      "verdict": "good",
+      "rule_penalty": 0,
+      "rule_problems": [],
+      "reasoning": "The agent showed some empathy but had poor clarity, repeated information, and did not fully understand why the borrower couldn't pay. The resolution was somewhat clear but lacked specific action points.",
+      "worst_messages": [],
+      "dimension_scores": {}
+    },
+    {
+      "call_id": "call_05",
+      "score": 65,
+      "verdict": "good",
+      "rule_penalty": 0,
+      "rule_problems": [],
+      "reasoning": "Moderate empathy, but repetitive and lacked discovery about why the customer couldn't pay. The resolution was clear but the agent could have provided more support or understanding.",
+      "worst_messages": [],
+      "dimension_scores": {}
+    },
+    {
+      "call_id": "call_06",
+      "score": 65,
+      "verdict": "good",
+      "rule_penalty": 0,
+      "rule_problems": [],
+      "reasoning": "Moderate empathy but repetitive and unclear in explaining the resolution steps. Also, didn't fully address the customer's concerns about the institution disconnection.",
+      "worst_messages": [],
+      "dimension_scores": {}
+    },
+    {
+      "call_id": "call_07",
+      "score": 48,
+      "verdict": "bad",
+      "rule_penalty": 0,
+      "rule_problems": [],
+      "reasoning": "Lacks empathy and clarity. Repetitive and does not understand why the borrower hasn't paid. Call ends without a clear resolution.",
+      "worst_messages": [],
+      "dimension_scores": {}
+    },
+    {
+      "call_id": "call_08",
+      "score": 58,
+      "verdict": "bad",
+      "rule_penalty": 0,
+      "rule_problems": [],
+      "reasoning": "The agent showed some empathy but had issues with clarity and kept repeating the greeting. There was no attempt to understand why the payment wasn't made.",
+      "worst_messages": [],
+      "dimension_scores": {}
+    },
+    {
+      "call_id": "call_09",
+      "score": 58,
+      "verdict": "bad",
+      "rule_penalty": 0,
+      "rule_problems": [],
+      "reasoning": "The agent was somewhat warm but repeated the same information multiple times and did not effectively clarify or resolve the issue. There was no indication of understanding why the borrower hasn't paid.",
+      "worst_messages": [],
+      "dimension_scores": {}
+    },
+    {
+      "call_id": "call_10",
+      "score": 55,
+      "verdict": "bad",
+      "rule_penalty": 0,
+      "rule_problems": [],
+      "reasoning": "The agent showed some empathy but was not very clear and repetitive, especially when explaining the balance. The call ended without a clear resolution.",
+      "worst_messages": [],
+      "dimension_scores": {}
+    }
+  ],
+  "suggestions": null
+}
